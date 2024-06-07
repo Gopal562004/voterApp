@@ -1,0 +1,30 @@
+voting app functionality
+
+1. user sign in/sign up
+2.
+
+
+routes
+
+
+
+user authentication:
+/signup: POST -create a new user account.
+/login: POST -log in toan accoutn. [addhar card number +password]
+
+
+voting:
+/candidate: GET -Get the list of candidates.
+/vote/candidate: POST -vote for a specific candidate.
+
+voting count:
+/vote/count: GET -Get the list of candidate sorted by their vote counts.
+
+user profile:
+/profile: GET -Get the user's profile infomation.
+/profile: PUT -Change the user's password.
+
+Admin candidate Managment:
+/candidate:POST -creat a new candidate.
+/candidate/:candidateId: PUT -Update an existing candidate.
+/candidate/:candidateId: DELECT -Delete a candidate from the list.
